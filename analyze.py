@@ -64,11 +64,12 @@ def analyze(item_type: str, file_path: str, version: str) -> set:
 
 
 @click.command()
-@click.argument("item_type", type=click.Choice(["services", "processes"]), default="services")
 @click.argument("file_path", type=click.Path(exists=True))
+@click.option("--item_type", type=click.Choice(["services", "processes"]), default="services",
+              help="The type of items your analyzing (default: services)")
 @click.option("--version", type=click.Choice(["2008", "2012", "2016", "2019", "10"]),
               default="10", help="The version of Windows you're analyzing (default: 10)")
-def main(item_type, file_path, version):
+def main(file_path, item_type, version):
     difference = analyze(item_type, file_path, version)
     if len(difference):
         click.echo(f"The following non-default {item_type} were found:")
