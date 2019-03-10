@@ -9,8 +9,10 @@ __      __(_) _ __    __| |  ___  / _|  __ _  _   _ | || |_  ___
 Tool to quickly determine which processes or services are not defaults on Windows
 
 ## Installation
-`git clone git@github.com:jroblak/windefaults.git`
-`pipenv install`
+```
+git clone git@github.com:jroblak/windefaults.git
+pipenv install
+```
 
 ## Usage
 ```
