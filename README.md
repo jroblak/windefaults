@@ -21,7 +21,7 @@ analyze.py [OPTIONS] FILE_PATH
 
 Options:
   --item_type [services|processes]
-                                  The type of items your analyzing (default:
+                                  The type of items you're analyzing (default:
                                   services)
   --version [2008|2012|2016|2019|10]
                                   The version of Windows you're analyzing
