@@ -6,7 +6,7 @@ __      __(_) _ __    __| |  ___  / _|  __ _  _   _ | || |_  ___
   \_/\_/  |_||_| |_| \__,_| \___||_|   \__,_| \__,_||_| \__||___/
                                                                  
 ```
-Tool to quickly determine which processes or services are not defaults on Windows
+Tool to quickly determine which processes or services are not defaults on Windows. Useful for CTFs, and maybe elsewhere as well!
 
 ## Installation
 Requires Python3 and `pipenv`
