@@ -12,6 +12,7 @@ Tool to quickly determine which processes or services are not defaults on Window
 Requires Python3 and `pipenv`
 ```
 git clone git@github.com:jroblak/windefaults.git
+cd windefaults
 pipenv install
 ```
 
