@@ -27,3 +27,10 @@ Options:
 ```
 `FILE_PATH`: windefaults expects a csv file, with the first column being the name of the process
 or service (this is the default `Export-Csv` behavior)
+
+Example:
+```
+➜  pipenv run python analyze.py --version="2012" services test/testcases/service-test.csv
+The following non-default services were found:
+[+] badservice
+```
