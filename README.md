@@ -9,6 +9,7 @@ __      __(_) _ __    __| |  ___  / _|  __ _  _   _ | || |_  ___
 Tool to quickly determine which processes or services are not defaults on Windows
 
 ## Installation
+Requires Python3 and `pipenv`
 ```
 git clone git@github.com:jroblak/windefaults.git
 pipenv install
@@ -24,6 +25,5 @@ Options:
                                   (default: 10)
   --help                          Show this message and exit.
 ```
-`FILE_PATH`
-windefaults expects a csv file, with the first column being the name of the process
+`FILE_PATH`: windefaults expects a csv file, with the first column being the name of the process
 or service (this is the default `Export-Csv` behavior)
