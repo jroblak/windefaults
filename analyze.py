@@ -8,6 +8,7 @@ from pathlib import Path
 
 import click
 
+
 DEFAULTS_PATH = "defaults"
 DEFAULTS_EXT = ".csv"
 DEFAULTS_FILES = {
